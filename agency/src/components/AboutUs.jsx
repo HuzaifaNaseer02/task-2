@@ -1,4 +1,5 @@
-import './AboutUs.css'
+import PropTypes from 'prop-types'
+import './AboutUs.css' // Import the corresponding CSS file
 
 const AboutUs = ({ imagePath }) => {
   return (
@@ -26,6 +27,10 @@ const AboutUs = ({ imagePath }) => {
       </div>
     </section>
   )
+}
+
+AboutUs.propTypes = {
+  imagePath: PropTypes.string.isRequired
 }
 
 export default AboutUs

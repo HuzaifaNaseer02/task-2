@@ -1,5 +1,5 @@
 .header {
-  background-color: #1e3d59;
+  background: linear-gradient(to right, #1e3d59 60%, #4a667a 30%, #f4a261 10%);
   color: #fff;
   text-align: center;
   padding: 2rem 0;
@@ -7,13 +7,13 @@
 
 .header-container {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 
 .logo img {
-  max-width: 100px; /* Adjust this size according to your logo */
+  max-width: 150px; /* Adjust this size according to your logo */
   margin-bottom: 1rem;
 }
 

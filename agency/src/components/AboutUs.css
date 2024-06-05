@@ -1,8 +1,9 @@
 .about-us {
   padding: 2rem;
-  background-color: #fff;
+  background: linear-gradient(to right, #1e3d59 60%, #4a667a 30%, #f4a261 10%);
   margin: 2rem 0;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  color: #fff;
 }
 
 .about-us-container {
@@ -22,19 +23,19 @@
 .about-us h2 {
   margin-bottom: 1rem;
   font-size: 2rem;
-  color: #1e3d59;
+  color: #fff;
 }
 
 .about-us .tagline {
   font-size: 1.2rem;
   margin-bottom: 1.5rem;
-  color: #333;
+  color: #f4f4f9;
   font-weight: bold;
 }
 
 .about-us .description {
   font-size: 1.1rem;
-  color: #333;
+  color: #f4f4f9;
   line-height: 1.6;
 }
 

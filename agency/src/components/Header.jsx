@@ -1,11 +1,11 @@
 import './Header.css'
-
+import logo from '../images/logo.png'
 const Header = () => {
   return (
     <header className='header'>
       <div className='header-container'>
         <div className='logo'>
-          <img src='../images/logo.jpg' alt='Softmark Solutions Logo' />
+          <img src={logo} alt='Softmark Solutions Logo' />
         </div>
         <div className='header-text'>
           <h1>Softmark Solutions</h1>

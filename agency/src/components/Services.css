@@ -1,13 +1,14 @@
 .services {
   padding: 2rem;
   text-align: center;
-  background-color: #e6ecf0;
+  background: linear-gradient(to right, #1e3d59 60%, #4a667a 30%, #f4a261 10%);
+  color: #fff;
 }
 
 .services h2 {
   margin-bottom: 2rem;
   font-size: 2rem;
-  color: #1e3d59;
+  color: #fff;
 }
 
 .services-container {
@@ -26,6 +27,7 @@
   width: 250px;
   text-align: left;
   transition: transform 0.3s;
+  color: #333;
 }
 
 .service-card h3 {
@@ -36,7 +38,6 @@
 
 .service-card p {
   font-size: 1rem;
-  color: #333;
 }
 
 .service-card:hover {
